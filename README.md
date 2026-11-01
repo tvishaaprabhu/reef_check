@@ -11,7 +11,7 @@ Nothing in the notebook downloads pretrained weights. Every step is classical co
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tvishaaprabhu/reef-check/blob/main/reef_check.ipynb)
 
-![Detected colonies with ID, growth-form label and health score](images/annotated_frame.jpg)
+![Detected colonies with ID, growth-form label and health score](annotated_frame.jpg)
 
 ---
 
@@ -116,11 +116,11 @@ On a test photo (Coral Outcrop, Flynn Reef; Wikimedia Commons), the app found 14
 
 | Reef summary | Per-colony table |
 |---|---|
-| ![Reef summary](images/reef_summary.jpg) | ![Colony table](images/colony_table.jpg) |
+| ![Reef summary](reef_summary.jpg) | ![Colony table](colony_table.jpg) |
 
-![Colony close-ups, upscaled 4x by the self-trained network](images/colony_closeups.jpg)
+![Colony close-ups, upscaled 4x by the self-trained network](colony_closeups.jpg)
 
-![App upload screen](images/app_upload.jpg)
+![App upload screen](app_upload.jpg)
 
 ---
 
@@ -149,6 +149,6 @@ On a test photo (Coral Outcrop, Flynn Reef; Wikimedia Commons), the app found 14
 .
 ├── reef_check.ipynb     # enhancement, segmentation, scoring, tracking, super-resolution, Gradio app
 ├── requirements.txt
-├── images/             # example outputs
+├── *.jpg               # example outputs
 └── README.md
 ```

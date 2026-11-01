@@ -1,0 +1,9 @@
+scikit-image
+scikit-learn
+opencv-python
+imageio[ffmpeg]
+gradio
+torch
+numpy
+pandas
+Pillow
